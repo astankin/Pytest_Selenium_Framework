@@ -2,7 +2,9 @@ import os
 import random
 from time import sleep
 
+import allure
 import pytest
+from allure_commons.types import AttachmentType
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 
@@ -217,6 +219,8 @@ class TestUserRegistration:
             assert message_element.is_displayed(), f"Expected message: '{expected_message}' not found on the page."
             assert expected_message == message_element_text
         except:
+            allure.attach(self.driver.get_screenshot_as_png(), name="test_username_with_numbers",
+                          attachment_type=AttachmentType.PNG)
             raise AssertionError("The username can NOT contains numbers")
 
     def test_register_user_with_username_les_then_5_chars(self, setup):
@@ -240,6 +244,8 @@ class TestUserRegistration:
             assert message_element.is_displayed(), f"Expected message: '{expected_message}' not found on the page."
             assert expected_message == message_element_text
         except NoSuchElementException:
+            allure.attach(self.driver.get_screenshot_as_png(), name="test_username_less_then_5",
+                          attachment_type=AttachmentType.PNG)
             raise AssertionError("The username can NOT be less then 5 characters")
 
     ############ Testing Registration Email Field ########################################
