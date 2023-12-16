@@ -1,0 +1,7 @@
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:37 click on [Register]
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:114 Providing customer details for registration
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:119 Entered  username
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:119 Entered username 
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:119 Entered user name
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:146 Registration PASSED
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:152 ******* End of test_001_register_Datadriven **********

@@ -1,0 +1,2 @@
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:77 Starting register with empty fields
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:37 click on [Register]

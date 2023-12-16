@@ -1,0 +1,2 @@
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:37 click on [Register]
+[32mINFO    [0m utilities.custom_logger:test_001_registration_ddt.py:370 Starting test with email contains special char
