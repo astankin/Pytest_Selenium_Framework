@@ -1,0 +1,4 @@
+[32mINFO    [0m utilities.custom_logger:test_002_login.py:22 **** Starting test_002_login ***
+[32mINFO    [0m utilities.custom_logger:test_002_login.py:28 click on [Login]
+[32mINFO    [0m utilities.custom_logger:test_002_login.py:31 Providing customer details for login
+[32mINFO    [0m utilities.custom_logger:test_002_login.py:45 **** End of the test_002_login ****
